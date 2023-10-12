@@ -45,7 +45,7 @@ public class Jumble {
         System.out.println("------------------------");
         float start = System.nanoTime();//for timer
         try {// fobj(file-pointer) requires a try and catch block!
-            File fobj = new File("words.txt");//creates a file pointer to file
+            File fobj = new File("D:/Java/Jumble/words.txt");//creates a file pointer to file
             Scanner fileReader = new Scanner(fobj);//creates a scanner object for the file pointer
 
             //----------------------------------------------------------------------------
